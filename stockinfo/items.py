@@ -16,5 +16,5 @@ class StockinfoItem(scrapy.Item):
     eps = scrapy.Field()
     eps_ttm = scrapy.Field()
     bps = scrapy.Field()
-
+    neg_equity = scrapy.Field()
     pass

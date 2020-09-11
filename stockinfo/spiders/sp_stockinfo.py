@@ -37,4 +37,5 @@ class SpStockInfo(scrapy.Spider):
         item["eps"] = data["eps"]
         item["eps_ttm"] = data["epsttm"]
         item["bps"] = data["bps"]
+        item["neg_equity"] = data["negEquity"]
         yield item
